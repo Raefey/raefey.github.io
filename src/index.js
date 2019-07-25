@@ -1,15 +1,13 @@
-import React from 'react-dom';
+import React from 'react';
 import ReactDOM from 'react-dom';
 
-function HelloRaefe() {
+function HelloWorld() {
     return(
-        <div>
-            Hello Raefe!
-        </div>
+        <div>Hello Raefe!</div>
     );
 }
 
 ReactDOM.render(
-    <HelloRaefe/>,
+    <HelloWorld/>,
     document.querySelector('#root')
 );
